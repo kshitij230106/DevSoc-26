@@ -1,0 +1,33 @@
+{
+  "name": "SignSOS - Emergency Sign Language",
+  "short_name": "SignSOS",
+  "description": "Emergency calling through sign language detection for deaf and speech-impaired users",
+  "start_url": "/dev_soc_26/index.html",
+  "scope": "/dev_soc_26/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#020617",
+  "theme_color": "#dc2626",
+  "categories": ["medical", "utilities", "accessibility"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Emergency Call",
+      "short_name": "SOS",
+      "url": "/dev_soc_26/index.html"
+    }
+  ]
+}
